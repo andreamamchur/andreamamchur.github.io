@@ -1,1 +1,0 @@
-# andreamamchur.github.io

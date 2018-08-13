@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+    color:black
+}
+/* }
+aside{
+    float: left;
+    display: inline-block;
+    position: relative;
+    color: aquamarine;
+    font-family: monospace;
+} */
+
+.container {
+    display: flex;
+    min-height: 65%;
+}
+
+aside {
+    background-color: #a4c0f3;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 15%;
+    order: 1;
+
+}
+ul{
+    list-style: none;
+}
+
+.main-content{
+    /* display: inline-block; */
+    background-color: aqua;
+      
+    flex-grow: 1;
+    order: 2;
+}
+/* 
+*{
+    outline: 1px solid red;
+} */
+
